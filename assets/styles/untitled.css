@@ -15,3 +15,124 @@ body {margin: 0;
     margin-left: auto;
     padding: 33px 16px;
 }
+.frame {
+    background-color:#3D3D3D;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+    
+    }
+.weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+.hello {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin: 0;
+}
+.subtext {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    opacity: 0.4;
+    margin: 0;
+    display: block;
+}
+.temp {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    display: block;
+    margin-top: 42px
+}
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.agenda li {
+    padding: 4px 12px;
+
+}
+.agenda li:nth-of-type(1) {
+    border-left: solid 2px #FFC453;
+}
+.agenda li:nth-of-type(2) {
+    border-left: solid 2px #29E489;
+}
+.inboxitem {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.inbox img {
+    border-radius: 50%;
+    border: solid 1px black;
+}
+.inbox li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.inbox li:not(:last-child) {
+    border-bottom: solid 1px #29292980;
+    padding-bottom: 7px;
+}
+.mood {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+}
+.mood li {
+    text-align: center;
+    background-color: #292929;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+
+.moodtext {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    margin: 6px 0 0 0;
+}
+.quote {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin: 29px 0 0 0;
+
+}
+.quote~.subtext {
+    text-align: right;
+
+}
